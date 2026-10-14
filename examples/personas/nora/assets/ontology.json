@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.nora",
+  "version": 1,
+  "name": "Nora example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "BankRequest",
+      "description": "Synthetic Banking operations preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Policy",
+      "description": "Synthetic Banking operations preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Exception",
+      "description": "Synthetic Banking operations preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "BankerApproval",
+      "description": "Synthetic Banking operations preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

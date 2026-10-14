@@ -1,0 +1,15 @@
+{
+  "status": "mutual_consent_required",
+  "activity": "cycling",
+  "eligibleFamilies": [
+    "family-a"
+  ],
+  "exactLocationsDisclosed": false,
+  "introductionSent": false,
+  "programmeStatus": "draft",
+  "mode": "fixture",
+  "persona": "mirav",
+  "externalEffects": [],
+  "boundary": "Use only explicitly enabled location scope. Keep precise locations private and wait for mutual consent.",
+  "revision": "c1f4657c899e3d9864cbbcb22166859ee19bd5b68e4280d80c0a7741ccaeeb93"
+}

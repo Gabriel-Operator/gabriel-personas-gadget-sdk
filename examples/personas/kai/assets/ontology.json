@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.kai",
+  "version": 1,
+  "name": "KAI example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Food",
+      "description": "Synthetic Household groceries and meals example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Inventory",
+      "description": "Synthetic Household groceries and meals example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Recipe",
+      "description": "Synthetic Household groceries and meals example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Offer",
+      "description": "Synthetic Household groceries and meals example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "CartProposal",
+      "description": "Synthetic Household groceries and meals example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.paya",
+  "version": 1,
+  "name": "Paya example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Offer",
+      "description": "Synthetic Time-sensitive online buying windows example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Seller",
+      "description": "Synthetic Time-sensitive online buying windows example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "BuyingWindow",
+      "description": "Synthetic Time-sensitive online buying windows example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "CheckoutProposal",
+      "description": "Synthetic Time-sensitive online buying windows example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

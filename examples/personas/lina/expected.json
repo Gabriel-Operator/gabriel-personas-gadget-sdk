@@ -1,0 +1,18 @@
+{
+  "status": "recruiter_review_required",
+  "evidence": [
+    "Python",
+    "SQL"
+  ],
+  "source": "fixture://candidate-work-sample",
+  "unverifiedSkills": [
+    "Kafka"
+  ],
+  "outreachDraft": "Discuss demonstrated Python, SQL for Data Engineer",
+  "outreachSent": false,
+  "mode": "fixture",
+  "persona": "lina",
+  "externalEffects": [],
+  "boundary": "Ground matches in demonstrated work and role requirements. Recruiters approve outreach.",
+  "revision": "851908f2c4c7a2af6a57e366a4116cb71c6cb27874dd4ed223b9b567ca228dd6"
+}

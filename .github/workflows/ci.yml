@@ -1,0 +1,54 @@
+name: SDK and firmware
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Domain and HTTP transport tests
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: All 14 packages and publication checks
+        run: |
+          PYTHONPATH=src python -m gabriel_gadget validate
+          PYTHONPATH=src python scripts/verify_distribution.py
+      - name: Installed package includes all examples
+        run: |
+          python -m pip install .
+          cd /tmp
+          gabriel-gadget validate
+          gabriel-gadget demo boli
+          gabriel-gadget demo kai
+          gabriel-gadget demo chakri
+
+  firmware:
+    runs-on: ubuntu-latest
+    container: espressif/idf:v6.0.1
+    strategy:
+      matrix:
+        profile: [basic, voice]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build ESP32-S3
+        shell: bash
+        working-directory: esp32
+        run: |
+          . /opt/esp/idf/export.sh
+          profile_defaults='sdkconfig.defaults;sdkconfig.s3'
+          if [ '${{ matrix.profile }}' = voice ]; then
+            profile_defaults="$profile_defaults;sdkconfig.voice"
+          fi
+          idf.py -B build/${{ matrix.profile }} -DIDF_TARGET=esp32s3 \
+            -DSDKCONFIG=build/${{ matrix.profile }}/sdkconfig \
+            "-DSDKCONFIG_DEFAULTS=$profile_defaults" build

@@ -1,0 +1,14 @@
+{
+  "status": "banker_review_required",
+  "withinPolicyLimit": false,
+  "exceptions": [
+    "Amount exceeds policy review limit"
+  ],
+  "policySource": "fixture://bank-policy-v1",
+  "paymentPerformed": false,
+  "mode": "fixture",
+  "persona": "nora",
+  "externalEffects": [],
+  "boundary": "Show policy, source documents and exceptions. Only authorized bankers approve banking actions.",
+  "revision": "80ed47ac6d1a95ce119018c1f514086f798af6500eca3f57958017a47691418e"
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "mutual_consent_required",
+    "privateDetailsDisclosed": false,
+    "introductionSent": false,
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "nest"
+  }
+}

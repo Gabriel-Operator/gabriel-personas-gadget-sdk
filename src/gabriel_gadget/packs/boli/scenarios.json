@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "adult_review_required",
+    "masteryAwarded": false,
+    "title": "A complete circuit",
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "boli"
+  }
+}

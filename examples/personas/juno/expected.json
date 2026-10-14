@@ -1,0 +1,14 @@
+{
+  "status": "mutual_consent_required",
+  "sharedValues": [
+    "kindness"
+  ],
+  "candidateId": "person-b",
+  "identityDisclosed": false,
+  "introductionSent": false,
+  "mode": "fixture",
+  "persona": "juno",
+  "externalEffects": [],
+  "boundary": "Explain shared values without a public profile deck. Connect people only when both consent.",
+  "revision": "dbe5e7eb4ec7c60b9e3b295fc13214a9f92244ec277549ad6f6e0c853493f2a4"
+}

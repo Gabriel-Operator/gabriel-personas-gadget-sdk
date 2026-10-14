@@ -1,0 +1,30 @@
+{
+  "inventory": {
+    "tomato": 2,
+    "pasta": 0.5,
+    "spinach": 0
+  },
+  "currency": "EUR",
+  "recipe": {
+    "name": "Tomato and spinach pasta",
+    "ingredients": {
+      "tomato": 3,
+      "pasta": 1,
+      "spinach": 2
+    }
+  },
+  "offers": {
+    "tomato": {
+      "unitPrice": 0.4,
+      "source": "fixture://retailer/tomato"
+    },
+    "pasta": {
+      "unitPrice": 1.8,
+      "source": "fixture://retailer/pasta"
+    },
+    "spinach": {
+      "unitPrice": 0.75,
+      "source": "fixture://retailer/spinach"
+    }
+  }
+}

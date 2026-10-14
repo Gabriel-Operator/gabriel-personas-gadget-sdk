@@ -1,0 +1,16 @@
+{
+  "person": {
+    "values": [
+      "kindness",
+      "outdoors"
+    ]
+  },
+  "candidate": {
+    "id": "person-b",
+    "values": [
+      "kindness",
+      "music"
+    ],
+    "name": "Private synthetic person"
+  }
+}

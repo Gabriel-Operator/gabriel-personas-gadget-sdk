@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "wardrobe_plan",
+    "purchaseSuggested": false,
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "cole"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.mirav",
+  "version": 1,
+  "name": "Mirav example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Family",
+      "description": "Synthetic Nearby family activities and introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Geofence",
+      "description": "Synthetic Nearby family activities and introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Activity",
+      "description": "Synthetic Nearby family activities and introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Introduction",
+      "description": "Synthetic Nearby family activities and introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

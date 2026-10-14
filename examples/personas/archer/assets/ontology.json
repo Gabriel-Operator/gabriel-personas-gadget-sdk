@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.archer",
+  "version": 1,
+  "name": "Archer example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Venue",
+      "description": "Synthetic Restaurant campaign preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "BrandEvidence",
+      "description": "Synthetic Restaurant campaign preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Event",
+      "description": "Synthetic Restaurant campaign preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "CampaignBrief",
+      "description": "Synthetic Restaurant campaign preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

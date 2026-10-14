@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "banker_review_required",
+    "withinPolicyLimit": false,
+    "paymentPerformed": false,
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "nora"
+  }
+}

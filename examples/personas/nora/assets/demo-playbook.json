@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "format": "gabriel-gadget-fixture-v1",
+  "steps": [
+    "read_synthetic_fixture",
+    "evaluate_domain_facts",
+    "prepare_proposal",
+    "display_evidence",
+    "record_simulated_review"
+  ],
+  "execution": "Python fixture engine nora",
+  "externalEffects": false,
+  "note": "This is a gadget example playbook, not an exported Gabriel production workflow."
+}

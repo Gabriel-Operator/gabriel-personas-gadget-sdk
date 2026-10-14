@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.cole",
+  "version": 1,
+  "name": "Cole example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Garment",
+      "description": "Synthetic Planning from an existing wardrobe example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Closet",
+      "description": "Synthetic Planning from an existing wardrobe example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Occasion",
+      "description": "Synthetic Planning from an existing wardrobe example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Outfit",
+      "description": "Synthetic Planning from an existing wardrobe example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

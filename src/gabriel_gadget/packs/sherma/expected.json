@@ -1,0 +1,18 @@
+{
+  "status": "needs_input",
+  "missingFields": [
+    "address"
+  ],
+  "formTwin": {
+    "applicant": "Synthetic Applicant",
+    "reference": "DEMO-42",
+    "address": null
+  },
+  "submitted": false,
+  "source": "fixture://permit-form",
+  "mode": "fixture",
+  "persona": "sherma",
+  "externalEffects": [],
+  "boundary": "Prepare a form twin and request missing records. Never submit the live form without exact-plan approval.",
+  "revision": "ed77970a0b93fee6a8c9544069bc9f3cd1c8ef0ebc4646d4612afec80e02e125"
+}

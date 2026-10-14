@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.lina",
+  "version": 1,
+  "name": "Lina example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Role",
+      "description": "Synthetic Evidence-backed recruiting example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Candidate",
+      "description": "Synthetic Evidence-backed recruiting example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "WorkEvidence",
+      "description": "Synthetic Evidence-backed recruiting example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "OutreachDraft",
+      "description": "Synthetic Evidence-backed recruiting example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

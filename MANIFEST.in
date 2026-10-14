@@ -1,0 +1,15 @@
+include README.md LICENSE NOTICE SECURITY.md CONTRIBUTING.md AGENTS.md SKILL.md
+include backends.example.json
+recursive-include docs *.md *.jpg
+recursive-include examples *.md *.json *.svg
+recursive-include linux *.md *.example
+recursive-include simulator *.md
+recursive-include scripts *.py
+recursive-include validation *.json
+include esp32/CMakeLists.txt esp32/README.md esp32/sdkconfig.defaults esp32/sdkconfig.s3 esp32/sdkconfig.voice esp32/partitions.csv esp32/dependencies.lock
+recursive-include esp32/main *.c *.h CMakeLists.txt Kconfig.projbuild idf_component.yml
+recursive-include esp32/tools *.py
+prune esp32/build
+prune esp32/managed_components
+prune .state
+global-exclude __pycache__ *.py[cod] *.sqlite*

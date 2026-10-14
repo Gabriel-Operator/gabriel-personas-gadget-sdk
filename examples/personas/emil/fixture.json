@@ -1,0 +1,14 @@
+{
+  "requiredDocuments": [
+    "invoice",
+    "packing-list",
+    "origin-certificate"
+  ],
+  "shipment": {
+    "reference": "SYNTHETIC-SHIPMENT-7",
+    "documents": [
+      "invoice",
+      "packing-list"
+    ]
+  }
+}

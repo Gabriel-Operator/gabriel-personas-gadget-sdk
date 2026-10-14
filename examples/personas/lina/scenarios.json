@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "recruiter_review_required",
+    "unverifiedSkills": [
+      "Kafka"
+    ],
+    "outreachSent": false,
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "lina"
+  }
+}

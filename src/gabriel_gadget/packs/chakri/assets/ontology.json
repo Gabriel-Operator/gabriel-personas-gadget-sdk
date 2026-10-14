@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.chakri",
+  "version": 1,
+  "name": "Chakri example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Material",
+      "description": "Synthetic Recycling quotes and collection preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "RateCard",
+      "description": "Synthetic Recycling quotes and collection preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "PickupProposal",
+      "description": "Synthetic Recycling quotes and collection preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "AcceptedWeight",
+      "description": "Synthetic Recycling quotes and collection preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Settlement",
+      "description": "Synthetic Recycling quotes and collection preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

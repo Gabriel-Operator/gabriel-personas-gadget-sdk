@@ -1,0 +1,18 @@
+{
+  "status": "mutual_consent_required",
+  "candidate": {
+    "id": "home-a",
+    "features": [
+      "garden",
+      "study"
+    ],
+    "price": 380000
+  },
+  "privateDetailsDisclosed": false,
+  "introductionSent": false,
+  "mode": "fixture",
+  "persona": "nest",
+  "externalEffects": [],
+  "boundary": "Propose one qualified introduction. Keep address and identity private until both sides consent.",
+  "revision": "d951e60f7df7b2f07c277e95deff9220419ff7d50d681ec4ca39129178ceb088"
+}

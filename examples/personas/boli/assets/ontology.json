@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.boli",
+  "version": 1,
+  "name": "Boli example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Learner",
+      "description": "Synthetic Adult-guided learning for ages 9–18 example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Course",
+      "description": "Synthetic Adult-guided learning for ages 9–18 example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Observation",
+      "description": "Synthetic Adult-guided learning for ages 9–18 example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "AdultReview",
+      "description": "Synthetic Adult-guided learning for ages 9–18 example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

@@ -1,0 +1,12 @@
+{
+  "learnerAge": 12,
+  "lesson": {
+    "title": "A complete circuit",
+    "question": "What changes when the circuit closes?",
+    "source": "fixture://course/electric-circuit-v1"
+  },
+  "observations": [
+    "The lamp is off with an open switch",
+    "The lamp turns on with a closed switch"
+  ]
+}

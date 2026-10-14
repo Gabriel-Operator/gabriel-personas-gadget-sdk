@@ -1,0 +1,27 @@
+{
+  "buyer": {
+    "budget": 400000,
+    "mustHaves": [
+      "garden"
+    ]
+  },
+  "homes": [
+    {
+      "id": "home-a",
+      "price": 380000,
+      "features": [
+        "garden",
+        "study"
+      ],
+      "address": "Synthetic private address"
+    },
+    {
+      "id": "home-b",
+      "price": 500000,
+      "features": [
+        "garden"
+      ],
+      "address": "Another synthetic address"
+    }
+  ]
+}

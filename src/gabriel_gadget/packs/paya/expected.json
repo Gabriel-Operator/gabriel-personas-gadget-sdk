@@ -1,0 +1,15 @@
+{
+  "status": "approval_required",
+  "seller": "Synthetic Verified Shop",
+  "totalCents": 8500,
+  "expiresAt": "2026-10-14T11:00:00Z",
+  "currency": "EUR",
+  "source": "fixture://offer/drop-1",
+  "checkoutPerformed": false,
+  "changedPlanRequiresNewApproval": true,
+  "mode": "fixture",
+  "persona": "paya",
+  "externalEffects": [],
+  "boundary": "Verify seller, stock, total and expiry. A changed plan invalidates approval; only the cardholder approves purchase.",
+  "revision": "e1b234936bfad754791811b7fadbff55b8f82885989d841126c45ad80fbca87b"
+}

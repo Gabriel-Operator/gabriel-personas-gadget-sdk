@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.juno",
+  "version": 1,
+  "name": "Juno example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Person",
+      "description": "Synthetic Personal introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Value",
+      "description": "Synthetic Personal introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Introduction",
+      "description": "Synthetic Personal introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Consent",
+      "description": "Synthetic Personal introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

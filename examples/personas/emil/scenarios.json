@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "declarant_review_required",
+    "missingDocuments": [
+      "origin-certificate"
+    ],
+    "filed": false,
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "emil"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "materials": [
+    {
+      "material": "cardboard",
+      "estimatedKg": 4
+    },
+    {
+      "material": "metal",
+      "estimatedKg": 1.5
+    }
+  ],
+  "area": "Demo District",
+  "requestedSlot": "Synthetic Saturday morning",
+  "rateCard": {
+    "rates": {
+      "cardboard": 0.1,
+      "metal": 1.2
+    },
+    "currency": "EUR",
+    "source": "fixture://collector/rate-card-v1",
+    "serviceAreas": [
+      "Demo District"
+    ]
+  }
+}

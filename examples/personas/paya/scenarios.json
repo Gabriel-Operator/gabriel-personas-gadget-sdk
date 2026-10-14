@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "approval_required",
+    "checkoutPerformed": false,
+    "changedPlanRequiresNewApproval": true,
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "paya"
+  }
+}

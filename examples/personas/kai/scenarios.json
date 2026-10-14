@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "approval_required",
+    "totalCents": 280,
+    "checkoutPerformed": false,
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "kai"
+  }
+}

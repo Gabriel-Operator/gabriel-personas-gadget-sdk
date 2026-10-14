@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "mutual_consent_required",
+    "eligibleFamilies": [
+      "family-a"
+    ],
+    "exactLocationsDisclosed": false,
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "mirav"
+  }
+}

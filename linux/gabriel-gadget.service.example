@@ -1,0 +1,21 @@
+[Unit]
+Description=Gabriel Persona Gadget Bridge
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=YOUR_DEDICATED_USER
+WorkingDirectory=/opt/gabriel-personas-gadget-sdk
+EnvironmentFile=/etc/gabriel-gadget/private.env
+ExecStart=/opt/gabriel-personas-gadget-sdk/.venv/bin/gabriel-gadget serve --state /var/lib/gabriel-gadget --config /etc/gabriel-gadget/backends.json
+Restart=on-failure
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/gabriel-gadget
+
+[Install]
+WantedBy=multi-user.target

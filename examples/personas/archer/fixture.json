@@ -1,0 +1,11 @@
+{
+  "brand": {
+    "name": "Synthetic Bistro",
+    "colours": [
+      "navy",
+      "cream"
+    ],
+    "source": "fixture://venue-site"
+  },
+  "event": "Confirmed synthetic Friday jazz dinner"
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "approval_required",
+    "estimatedTotalCents": 220,
+    "paymentPerformed": false,
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "chakri"
+  }
+}

@@ -1,0 +1,18 @@
+Gabriel Personas Gadget SDK
+Copyright 2026 Gabriel Operator
+
+This repository's code, synthetic example definitions, documentation and SVG
+badges are original work distributed under Apache License 2.0.
+
+The hardware SDK approach was informed by publicly documented Muse Gadgets
+(https://gadgets.muse.ai/) and facebookincubator/muse-gadget-sdk. No Meta SDK
+source, Jollybot artwork, SDK credentials or proprietary protocol implementation
+is included. This project uses Gabriel's documented Persona API independently.
+
+ESP-IDF is a separately licensed build/runtime dependency maintained by Espressif.
+Its source, toolchains and Docker image are not redistributed in this repository.
+The cJSON component is fetched from Espressif's component registry at firmware
+build time and retains its upstream MIT license; managed components are not tracked.
+Python standard-library dependencies remain covered by their upstream licenses.
+Third-party models, knowledge, artwork, credentials and production persona
+resources are not included and retain their own licenses and access terms.

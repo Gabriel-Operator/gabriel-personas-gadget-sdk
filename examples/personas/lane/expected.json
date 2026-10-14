@@ -1,0 +1,20 @@
+{
+  "status": "introduction_review_required",
+  "candidates": [
+    {
+      "id": "company-a",
+      "name": "Synthetic Grid Co",
+      "source": "fixture://company-a",
+      "reason": [
+        "climate",
+        "energy"
+      ]
+    }
+  ],
+  "introductionSent": false,
+  "mode": "fixture",
+  "persona": "lane",
+  "externalEffects": [],
+  "boundary": "Cite relevant evidence. A human reviews an introduction before it is sent.",
+  "revision": "6f8905d70ce02867702a3af2f40218a57b6489f45178a2ebd98a8421581feedc"
+}

@@ -1,0 +1,24 @@
+{
+  "occasion": "dinner",
+  "closet": [
+    {
+      "name": "Owned navy jacket",
+      "occasions": [
+        "dinner",
+        "work"
+      ]
+    },
+    {
+      "name": "Owned cream shirt",
+      "occasions": [
+        "dinner"
+      ]
+    },
+    {
+      "name": "Owned running shoes",
+      "occasions": [
+        "sport"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gabriel-personas-gadget-sdk"
+version = "0.1.0"
+description = "Open-source device bridge, Linux client and ESP32 firmware for Gabriel AI personas"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "Gabriel Operator"}]
+dependencies = []
+
+[project.scripts]
+gabriel-gadget = "gabriel_gadget.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gabriel_gadget = ["packs/**/*.json", "packs/**/*.svg", "packs/**/*.md", "web/*"]

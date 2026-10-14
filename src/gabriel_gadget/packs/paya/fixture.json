@@ -1,0 +1,12 @@
+{
+  "budgetCents": 10000,
+  "now": "2026-10-14T10:00:00Z",
+  "offer": {
+    "seller": "Synthetic Verified Shop",
+    "stock": 2,
+    "totalCents": 8500,
+    "expiresAt": "2026-10-14T11:00:00Z",
+    "currency": "EUR",
+    "source": "fixture://offer/drop-1"
+  }
+}

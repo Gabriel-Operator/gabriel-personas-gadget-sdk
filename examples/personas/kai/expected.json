@@ -1,0 +1,36 @@
+{
+  "status": "approval_required",
+  "meal": "Tomato and spinach pasta",
+  "cart": [
+    {
+      "item": "tomato",
+      "quantity": 1,
+      "unitPriceCents": 40,
+      "lineTotalCents": 40,
+      "source": "fixture://retailer/tomato"
+    },
+    {
+      "item": "pasta",
+      "quantity": 0.5,
+      "unitPriceCents": 180,
+      "lineTotalCents": 90,
+      "source": "fixture://retailer/pasta"
+    },
+    {
+      "item": "spinach",
+      "quantity": 2,
+      "unitPriceCents": 75,
+      "lineTotalCents": 150,
+      "source": "fixture://retailer/spinach"
+    }
+  ],
+  "totalCents": 280,
+  "currency": "EUR",
+  "checkoutPerformed": false,
+  "signal": "Recipe inventory gap",
+  "mode": "fixture",
+  "persona": "kai",
+  "externalEffects": [],
+  "boundary": "Plan from existing food and buy only the inventory gap. Show quantities, prices and sources; checkout requires approval.",
+  "revision": "1039f8108180b1e3cfc5a59b85bd733ac0a07d7d384d9c8db378326ea6dc9c42"
+}

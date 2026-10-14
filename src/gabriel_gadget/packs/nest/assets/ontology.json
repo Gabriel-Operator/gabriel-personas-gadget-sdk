@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.nest",
+  "version": 1,
+  "name": "Nest example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Buyer",
+      "description": "Synthetic Private buyer and seller introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Home",
+      "description": "Synthetic Private buyer and seller introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Introduction",
+      "description": "Synthetic Private buyer and seller introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Consent",
+      "description": "Synthetic Private buyer and seller introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

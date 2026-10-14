@@ -1,0 +1,15 @@
+{
+  "status": "wardrobe_plan",
+  "occasion": "dinner",
+  "ownedItems": [
+    "Owned navy jacket",
+    "Owned cream shirt"
+  ],
+  "purchaseSuggested": false,
+  "virtualTryOn": "requires installed or connected image model",
+  "mode": "fixture",
+  "persona": "cole",
+  "externalEffects": [],
+  "boundary": "Start from owned clothes. Do not invent ownership, try-on results or a need to buy.",
+  "revision": "5d3c5e2485bb5a6608e0baf8b5267c7a60ead7c9aed3c61a261ab9a0aba65945"
+}

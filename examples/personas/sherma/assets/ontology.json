@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.sherma",
+  "version": 1,
+  "name": "Sherma example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Form",
+      "description": "Synthetic Official and operational forms example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "SourceRecord",
+      "description": "Synthetic Official and operational forms example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "FormTwin",
+      "description": "Synthetic Official and operational forms example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "SubmissionApproval",
+      "description": "Synthetic Official and operational forms example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

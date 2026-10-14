@@ -1,0 +1,17 @@
+{
+  "status": "declarant_review_required",
+  "missingDocuments": [
+    "origin-certificate"
+  ],
+  "portalTwin": {
+    "shipmentReference": "SYNTHETIC-SHIPMENT-7",
+    "ready": false
+  },
+  "declarant": "Licensed human declarant",
+  "filed": false,
+  "mode": "fixture",
+  "persona": "emil",
+  "externalEffects": [],
+  "boundary": "Rehearse approved shipment data against a portal twin. The licensed human declarant remains responsible for filing.",
+  "revision": "23c93449f75cc63c81a7d34c1e64a021dc4388a43e6be2ddd62faa039187b6db"
+}

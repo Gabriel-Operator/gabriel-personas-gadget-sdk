@@ -1,0 +1,19 @@
+{
+  "status": "brand_review_required",
+  "brief": {
+    "venue": "Synthetic Bistro",
+    "event": "Confirmed synthetic Friday jazz dinner",
+    "observedColours": [
+      "navy",
+      "cream"
+    ],
+    "source": "fixture://venue-site"
+  },
+  "imageGeneration": "requires connected media provider",
+  "published": false,
+  "mode": "fixture",
+  "persona": "archer",
+  "externalEffects": [],
+  "boundary": "Ground the brief in a real venue source and confirmed event. Separate observation from inference; publishing requires approval.",
+  "revision": "6572d50c21ec36e9a51ee26d6d88b5e6885ef074729f7f40fbb70065b8cea0bd"
+}

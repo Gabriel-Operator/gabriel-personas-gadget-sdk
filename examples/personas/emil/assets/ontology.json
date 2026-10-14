@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.emil",
+  "version": 1,
+  "name": "Emil example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Shipment",
+      "description": "Synthetic Customs and carrier portal preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "SourceDocument",
+      "description": "Synthetic Customs and carrier portal preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "PortalTwin",
+      "description": "Synthetic Customs and carrier portal preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "Declarant",
+      "description": "Synthetic Customs and carrier portal preparation example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

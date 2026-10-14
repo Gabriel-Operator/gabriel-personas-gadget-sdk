@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "resourceKey": "ontology.gadget.lane",
+  "version": 1,
+  "name": "Lane example ontology",
+  "status": "draft",
+  "entities": [
+    {
+      "type": "Company",
+      "description": "Synthetic Founder, investor and startup introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "InvestorThesis",
+      "description": "Synthetic Founder, investor and startup introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    },
+    {
+      "type": "IntroductionProposal",
+      "description": "Synthetic Founder, investor and startup introductions example entity.",
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  ],
+  "relationships": [],
+  "primitives": {}
+}

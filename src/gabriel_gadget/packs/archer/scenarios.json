@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "brand_review_required",
+    "published": false,
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "archer"
+  }
+}

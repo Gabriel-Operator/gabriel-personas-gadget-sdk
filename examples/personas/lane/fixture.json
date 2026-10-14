@@ -1,0 +1,25 @@
+{
+  "thesis": [
+    "climate",
+    "energy"
+  ],
+  "companies": [
+    {
+      "id": "company-a",
+      "name": "Synthetic Grid Co",
+      "sectors": [
+        "climate",
+        "energy"
+      ],
+      "source": "fixture://company-a"
+    },
+    {
+      "id": "company-b",
+      "name": "Synthetic Games Co",
+      "sectors": [
+        "games"
+      ],
+      "source": "fixture://company-b"
+    }
+  ]
+}

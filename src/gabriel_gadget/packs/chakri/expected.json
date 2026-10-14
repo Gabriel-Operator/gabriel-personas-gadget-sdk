@@ -1,0 +1,26 @@
+{
+  "status": "approval_required",
+  "quote": [
+    {
+      "material": "cardboard",
+      "estimatedKg": 4,
+      "estimatedValueCents": 40
+    },
+    {
+      "material": "metal",
+      "estimatedKg": 1.5,
+      "estimatedValueCents": 180
+    }
+  ],
+  "currency": "EUR",
+  "estimatedTotalCents": 220,
+  "source": "fixture://collector/rate-card-v1",
+  "paymentPerformed": false,
+  "acceptedWeightRequired": true,
+  "pickup": "Synthetic Saturday morning",
+  "mode": "fixture",
+  "persona": "chakri",
+  "externalEffects": [],
+  "boundary": "Quote only from the collector's rate card and service area. Dispatch, accepted weight and settlement require operator review.",
+  "revision": "b20b3c4fa5b3ed483a62ea92be7f28ec4d6a6719214e4802ae98310391f409db"
+}

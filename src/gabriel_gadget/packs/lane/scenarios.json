@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "introduction_review_required",
+    "introductionSent": false,
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "lane"
+  }
+}

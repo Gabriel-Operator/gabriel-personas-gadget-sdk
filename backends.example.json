@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "profiles": {
+    "fixture": {},
+    "cloud": {
+      "origin": "https://gabrieloperator.com",
+      "bindings": {
+        "boli": {"tokenEnv": "GABRIEL_BOLI_TOKEN", "personaId": ""},
+        "kai": {"tokenEnv": "GABRIEL_KAI_TOKEN", "personaId": ""},
+        "chakri": {"tokenEnv": "GABRIEL_CHAKRI_TOKEN", "personaId": ""}
+      }
+    },
+    "local": {
+      "origin": "https://192.168.1.10:8443",
+      "caFile": "/path/to/your/trusted-appliance-ca.pem",
+      "bindings": {
+        "boli": {"tokenEnv": "GABRIEL_LOCAL_BOLI_TOKEN", "personaId": ""},
+        "kai": {"tokenEnv": "GABRIEL_LOCAL_KAI_TOKEN", "personaId": ""},
+        "chakri": {"tokenEnv": "GABRIEL_LOCAL_CHAKRI_TOKEN", "personaId": ""}
+      }
+    }
+  }
+}

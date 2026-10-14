@@ -1,0 +1,17 @@
+{
+  "role": {
+    "title": "Data Engineer",
+    "skills": [
+      "Python",
+      "SQL",
+      "Kafka"
+    ]
+  },
+  "candidate": {
+    "evidencedSkills": [
+      "Python",
+      "SQL"
+    ],
+    "source": "fixture://candidate-work-sample"
+  }
+}

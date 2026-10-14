@@ -1,0 +1,14 @@
+{
+  "form": {
+    "requiredFields": [
+      "applicant",
+      "reference",
+      "address"
+    ],
+    "source": "fixture://permit-form"
+  },
+  "records": {
+    "applicant": "Synthetic Applicant",
+    "reference": "DEMO-42"
+  }
+}

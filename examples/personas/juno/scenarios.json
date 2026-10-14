@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "mode": "fixture",
+  "checks": {
+    "status": "mutual_consent_required",
+    "sharedValues": [
+      "kindness"
+    ],
+    "identityDisclosed": false,
+    "externalEffects": [],
+    "mode": "fixture",
+    "persona": "juno"
+  }
+}

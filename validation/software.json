@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-14",
+  "releaseVersion": "0.1.0",
+  "evidence": {
+    "pythonTests": {
+      "status": "passed",
+      "count": 43,
+      "pythonVersion": "3.13.7",
+      "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+      "usesAuthenticatedProviders": false
+    },
+    "examplePackages": {
+      "status": "passed",
+      "count": 14,
+      "exactExpectedResults": true,
+      "scenarioChecks": true,
+      "sourcePackageByteParity": true,
+      "publicationAudit": true,
+      "sharedStyledControlAudit": true,
+      "command": "PYTHONPATH=src python3 scripts/verify_distribution.py"
+    },
+    "installedWheel": {
+      "status": "passed",
+      "pythonVersion": "3.11.11",
+      "bundledPackages": 14,
+      "command": "gabriel-gadget validate"
+    },
+    "browser": {
+      "status": "passed",
+      "backend": "fixture",
+      "personas": ["boli", "kai", "chakri"],
+      "demoReview": "passed; no external effects",
+      "styledPickerPointerAndKeyboard": "passed",
+      "responsiveWidthPixels": 390,
+      "screenshot": "docs/images/simulator.jpg"
+    },
+    "firmware": {
+      "status": "compiled",
+      "target": "esp32s3",
+      "espIdfVersion": "6.0.1",
+      "container": "espressif/idf:v6.0.1",
+      "cJsonVersion": "1.7.19~2",
+      "basicAppSha256": "b31f0345d797b02f3fc9274df98925b400e3da5e31473c6725c25095ac5893ed",
+      "voiceAppSha256": "9251b216c6ae118d626dce2d06201945439dd44cdcc5f91719dc1eaa78beeb4b",
+      "binaryReproducibilityAcrossMachines": "not established",
+      "physicalBoardFlashed": false
+    }
+  },
+  "pendingAcceptance": [
+    "Authenticated live Gabriel provider",
+    "Installed Portable Runtime appliance",
+    "Disconnected-WAN appliance trial",
+    "Physical ESP32 board and peripherals",
+    "Independent open-source persona runtime release"
+  ]
+}

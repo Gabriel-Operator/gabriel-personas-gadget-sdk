@@ -1,0 +1,23 @@
+{
+  "activity": "cycling",
+  "geofence": {
+    "enabled": true,
+    "radiusMeters": 1000
+  },
+  "families": [
+    {
+      "id": "family-a",
+      "distanceMeters": 600,
+      "interests": [
+        "cycling"
+      ]
+    },
+    {
+      "id": "family-b",
+      "distanceMeters": 1500,
+      "interests": [
+        "cycling"
+      ]
+    }
+  ]
+}

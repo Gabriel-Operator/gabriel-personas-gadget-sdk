@@ -1,0 +1,37 @@
+menu "Gabriel persona gadget"
+    config GADGET_BUTTON_GPIO
+        int "Push-to-talk / example button GPIO"
+        default 0
+    config GADGET_STATUS_GPIO
+        int "Optional discrete LED GPIO (-1 disables; onboard RGB LEDs need a board adapter)"
+        default -1
+    config GADGET_MIC_ENABLED
+        bool "External standard I2S microphone (e.g. INMP441)"
+        default n
+    config GADGET_SPEAKER_ENABLED
+        bool "External standard I2S amplifier (e.g. MAX98357A)"
+        depends on GADGET_MIC_ENABLED
+        default n
+    config GADGET_MIC_BCLK
+        int "Microphone bit clock GPIO"
+        default 4
+    config GADGET_MIC_WS
+        int "Microphone word select GPIO"
+        default 5
+    config GADGET_MIC_DATA
+        int "Microphone data input GPIO"
+        default 6
+    config GADGET_SPEAKER_BCLK
+        int "Speaker bit clock GPIO"
+        default 15
+    config GADGET_SPEAKER_WS
+        int "Speaker word select GPIO"
+        default 16
+    config GADGET_SPEAKER_DATA
+        int "Speaker data output GPIO"
+        default 17
+    config GADGET_RECORD_SECONDS
+        int "Maximum hold-to-talk duration (seconds)"
+        range 1 10
+        default 4
+endmenu

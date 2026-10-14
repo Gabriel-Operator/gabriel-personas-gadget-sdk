@@ -1,0 +1,17 @@
+{
+  "status": "adult_review_required",
+  "title": "A complete circuit",
+  "question": "What changes when the circuit closes?",
+  "observations": [
+    "The lamp is off with an open switch",
+    "The lamp turns on with a closed switch"
+  ],
+  "nextStep": "Explain the pattern in your own words, then ask your adult to review.",
+  "masteryAwarded": false,
+  "source": "fixture://course/electric-circuit-v1",
+  "mode": "fixture",
+  "persona": "boli",
+  "externalEffects": [],
+  "boundary": "Stay inside the course and learner age. Record observations without awarding mastery; an adult reviews learning evidence.",
+  "revision": "0c2b49003c515510a7d85a71ca569d62e543181df0e1e46dc301c43fabd90e7e"
+}

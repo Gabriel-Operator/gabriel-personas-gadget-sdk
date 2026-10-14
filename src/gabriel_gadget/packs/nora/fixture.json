@@ -1,0 +1,9 @@
+{
+  "request": {
+    "amountCents": 150000
+  },
+  "policy": {
+    "reviewLimitCents": 100000,
+    "source": "fixture://bank-policy-v1"
+  }
+}
