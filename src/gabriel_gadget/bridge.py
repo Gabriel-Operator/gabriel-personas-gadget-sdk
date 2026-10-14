@@ -14,6 +14,7 @@ from .packs import Catalog, fingerprint, read_json
 
 MAX_BODY = 3 * 1024 * 1024
 OPERATION = re.compile(r"^[A-Za-z0-9_-]{8,96}$")
+PORTRAIT = re.compile(r"^/portraits/([a-z][a-z0-9-]{0,47})\.jpg$")
 
 
 class Bridge:
@@ -176,6 +177,12 @@ def make_server(bridge, host="127.0.0.1", port=8765, cert=None, key=None):
                 mime = "text/html; charset=utf-8" if u.path == "/" else (
                     "image/svg+xml" if u.path.endswith("svg") else "text/css" if u.path.endswith("css") else "text/javascript")
                 return self.send(200, file.read_bytes(), mime)
+            portrait = PORTRAIT.fullmatch(u.path) if method == "GET" else None
+            if portrait:
+                file = bridge.catalog.path(portrait.group(1)) / "portrait.jpg"
+                if not file.is_file():
+                    raise GadgetError("not_found", "Portrait not found.", 404)
+                return self.send(200, file.read_bytes(), "image/jpeg")
             if method == "GET" and u.path == "/health":
                 return self.send(200, {"status": "ok", "protocolVersion": 1})
             device = self.device()

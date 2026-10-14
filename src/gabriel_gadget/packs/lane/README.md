@@ -1,5 +1,9 @@
 # Lane on a gadget
 
+![Lane](portrait.jpg)
+
+Official portrait: [Lane](https://gabrieloperator.com/persona/lane).
+
 Founder, investor and startup introductions.
 
 Run `gabriel-gadget demo lane` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo lane`.

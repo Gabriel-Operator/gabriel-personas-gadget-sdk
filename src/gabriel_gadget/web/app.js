@@ -5,12 +5,22 @@ const message = textareaField('Connected persona message (fixture examples use t
 const backend = selectField('Execution', 'execution-backend', [['fixture','Synthetic fixture'],['cloud','Gabriel Cloud'],['local','Local appliance']]); $('backend-select').append(backend.group);
 const persona = selectField('Persona', 'persona-picker', []); $('persona-select').append(persona.group);
 let token = '', catalog = [], selected = 'boli', pending = null;
-const colours = {boli:'#f1c644', kai:'#58c58b', chakri:'#70bfb0'};
+function showPortrait(id) {
+  const avatar = $('avatar');
+  avatar.className = 'avatar';
+  avatar.replaceChildren();
+  const img = document.createElement('img');
+  img.alt = '';
+  img.src = '/portraits/' + id + '.jpg';
+  img.addEventListener('error', () => { avatar.replaceChildren(document.createTextNode((id || 'P')[0].toUpperCase())); });
+  avatar.append(img);
+  for (const link of document.querySelectorAll('.roster a')) link.classList.toggle('active', link.dataset.persona === id);
+}
 function select(id) {
   selected = id; persona.control.value = id; pending = null; $('review-actions').hidden = true;
   const pack = catalog.find(p => p.id === id); if (!pack) return;
   $('name').textContent = pack.name; $('domain').textContent = pack.domain; $('boundary').textContent = pack.boundary;
-  $('avatar').textContent = pack.name[0]; $('avatar').className = 'avatar avatar-' + (id in colours ? id : 'other');
+  showPortrait(id);
   for (const button of $('catalog').children) button.classList.toggle('active', button.dataset.persona === id);
   $('result').replaceChildren(); $('status').textContent = 'Ready for ' + pack.name + '.';
 }
@@ -38,9 +48,10 @@ $('connect').onclick = () => work(async () => {
   persona.setOptions(catalog.map(pack => [pack.id, pack.name])); $('catalog').replaceChildren();
   for (const pack of catalog) {
     const button = document.createElement('button'); button.className = 'persona-card'; button.dataset.persona = pack.id;
+    const img = document.createElement('img'); img.alt = ''; img.src = '/portraits/' + pack.id + '.jpg';
     const name = document.createElement('strong'); name.textContent = pack.name;
     const domain = document.createElement('span'); domain.textContent = pack.domain;
-    button.append(name, domain); button.onclick = () => select(pack.id); $('catalog').append(button);
+    button.append(img, name, domain); button.onclick = () => select(pack.id); $('catalog').append(button);
   }
   $('connection').textContent = 'Device connected. '+catalog.length+' allowed personas.';
   select(catalog.some(p=>p.id==='boli') ? 'boli' : catalog[0]?.id);
@@ -63,3 +74,17 @@ for (const decision of ['approve','decline']) $(decision).onclick = () => work(a
   render(await api('/v1/reviews',{operationId:pending.operationId, revision:pending.revision, decision}));
   pending=null; $('review-actions').hidden=true; $('status').textContent='Synthetic review recorded. No external effect executed.';
 });
+
+for (const link of document.querySelectorAll('.roster a')) {
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    const id = link.dataset.persona;
+    if (catalog.some(pack => pack.id === id)) { select(id); return; }
+    selected = id;
+    showPortrait(id);
+    $('name').textContent = link.dataset.name;
+    $('domain').textContent = link.dataset.domain;
+    $('boundary').textContent = link.dataset.boundary;
+    $('status').textContent = 'Connect a device to run ' + link.dataset.name + '.';
+  });
+}

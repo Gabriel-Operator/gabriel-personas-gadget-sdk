@@ -11,6 +11,8 @@ PACK_ROOT = Path(__file__).parent / "packs"
 SECRET = re.compile(r"(?:gabi_|gdev_|sk-proj-|gh[op]_)[A-Za-z0-9_-]{12,}")
 REQUIRED = ("persona.json", "assets/chat-config.json", "assets/ontology.json",
             "fixture.json", "expected.json", "scenarios.json", "README.md")
+TEXT_SUFFIXES = {".json", ".md", ".svg", ".txt"}
+IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp"}
 
 
 def canonical(value):
@@ -39,6 +41,13 @@ def validate_pack(path):
         if file.is_symlink():
             raise GadgetError("invalid_package", "Package symlinks are not permitted.")
         if file.is_file():
+            suffix = file.suffix.lower()
+            if suffix in IMAGE_SUFFIXES:
+                if file.stat().st_size > 2_000_000:
+                    raise GadgetError("invalid_package", "Package images must be 2 MB or smaller.")
+                continue
+            if suffix not in TEXT_SUFFIXES:
+                raise GadgetError("invalid_package", "Unexpected package file: " + file.name)
             text = file.read_text()
             if SECRET.search(text) or "/Users/" in text or "localhost:3200" in text:
                 raise GadgetError("private_definition", "Package contains credentials or private machine references.")

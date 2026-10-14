@@ -15,6 +15,12 @@ does not run an LLM. An independently buildable open-source persona runtime is
 a separate release commitment; this repository does not publish Gabriel's
 private execution backend or redistribute model weights.
 
+![Gabriel gadgets: a round display, a handheld, a desk puck, an ESP32 board, and an e-ink frame](docs/images/gadgets.jpg)
+
+The same device protocol can drive a round display, a handheld, a desk puck, an
+ESP32-S3 board, or an e-ink frame. Screens in the picture use the official
+portraits for Lane, KAI, and Mirav.
+
 ## Try the first three examples
 
 Python 3.10+ is sufficient. No runtime dependencies or model downloads are needed.
@@ -38,6 +44,23 @@ python3 -m venv .venv
 
 ## Meet the fourteen personas
 
+<p>
+<a href="examples/personas/lane"><img src="examples/personas/lane/portrait.jpg" alt="Lane" width="148"></a>
+<a href="examples/personas/sherma"><img src="examples/personas/sherma/portrait.jpg" alt="Sherma" width="148"></a>
+<a href="examples/personas/nest"><img src="examples/personas/nest/portrait.jpg" alt="Nest" width="148"></a>
+<a href="examples/personas/juno"><img src="examples/personas/juno/portrait.jpg" alt="Juno" width="148"></a>
+<a href="examples/personas/lina"><img src="examples/personas/lina/portrait.jpg" alt="Lina" width="148"></a>
+<a href="examples/personas/kai"><img src="examples/personas/kai/portrait.jpg" alt="KAI" width="148"></a>
+<a href="examples/personas/emil"><img src="examples/personas/emil/portrait.jpg" alt="Emil" width="148"></a>
+<a href="examples/personas/nora"><img src="examples/personas/nora/portrait.jpg" alt="Nora" width="148"></a>
+<a href="examples/personas/archer"><img src="examples/personas/archer/portrait.jpg" alt="Archer" width="148"></a>
+<a href="examples/personas/cole"><img src="examples/personas/cole/portrait.jpg" alt="Cole" width="148"></a>
+<a href="examples/personas/boli"><img src="examples/personas/boli/portrait.jpg" alt="Boli" width="148"></a>
+<a href="examples/personas/chakri"><img src="examples/personas/chakri/portrait.jpg" alt="Chakri" width="148"></a>
+<a href="examples/personas/paya"><img src="examples/personas/paya/portrait.jpg" alt="Paya" width="148"></a>
+<a href="examples/personas/mirav"><img src="examples/personas/mirav/portrait.jpg" alt="Mirav" width="148"></a>
+</p>
+
 | Persona | Reproducible domain example | Boundary demonstrated |
 | --- | --- | --- |
 | [Lane](examples/personas/lane) | Evidence-backed company discovery | Review before introductions |
@@ -57,7 +80,7 @@ python3 -m venv .venv
 
 Each package contains an authored chat configuration, portable example ontology,
 synthetic facts, complete expected output, scenario checks, a demo playbook,
-an original SVG badge, and setup instructions. The source packages and installed
+the official portrait, an original SVG badge, and setup instructions. The source packages and installed
 package data are checked for exact parity. Prices, participants and `fixture://`
 sources are explicitly synthetic.
 
@@ -78,7 +101,7 @@ device credential file into the masked field, and connect. The credential stays
 in page memory. Choose a persona and run the bundled example; inspect the complete
 result before recording a clearly labeled **demo approval**.
 
-![Browser simulator with shared styled controls and KAI's synthetic cart](docs/images/simulator.jpg)
+![Connected demo with official portraits and KAI's synthetic cart](docs/images/simulator.jpg)
 
 From another terminal:
 

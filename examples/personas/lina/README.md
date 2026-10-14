@@ -1,5 +1,9 @@
 # Lina on a gadget
 
+![Lina](portrait.jpg)
+
+Official portrait: [Lina](https://gabrieloperator.com/persona/lina).
+
 Evidence-backed recruiting.
 
 Run `gabriel-gadget demo lina` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo lina`.

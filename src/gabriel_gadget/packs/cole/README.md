@@ -1,5 +1,9 @@
 # Cole on a gadget
 
+![Cole](portrait.jpg)
+
+Official portrait: [Cole](https://gabrieloperator.com/persona/cole).
+
 Planning from an existing wardrobe.
 
 Run `gabriel-gadget demo cole` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo cole`.

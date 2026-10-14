@@ -1,5 +1,9 @@
 # Mirav on a gadget
 
+![Mirav](portrait.jpg)
+
+Official portrait: [Mirav](https://gabrieloperator.com/persona/mirav).
+
 Nearby family activities and introductions.
 
 Run `gabriel-gadget demo mirav` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo mirav`.

@@ -1,5 +1,9 @@
 # Boli on a gadget
 
+![Boli](portrait.jpg)
+
+Official portrait: [Boli](https://gabrieloperator.com/persona/boli).
+
 Adult-guided learning for ages 9–18.
 
 Run `gabriel-gadget demo boli` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo boli`.

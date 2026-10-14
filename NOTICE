@@ -9,6 +9,10 @@ The hardware SDK approach was informed by publicly documented Muse Gadgets
 source, Jollybot artwork, SDK credentials or proprietary protocol implementation
 is included. This project uses Gabriel's documented Persona API independently.
 
+Official persona portraits shipped with the fourteen examples are Gabriel
+Operator artwork, included so each example can be recognized. They are not
+Meta, Muse, or other third-party character art.
+
 ESP-IDF is a separately licensed build/runtime dependency maintained by Espressif.
 Its source, toolchains and Docker image are not redistributed in this repository.
 The cJSON component is fetched from Espressif's component registry at firmware

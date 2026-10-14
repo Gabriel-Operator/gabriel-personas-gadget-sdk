@@ -1,5 +1,9 @@
 # KAI on a gadget
 
+![KAI](portrait.jpg)
+
+Official portrait: [KAI](https://gabrieloperator.com/persona/kai).
+
 Household groceries and meals.
 
 Run `gabriel-gadget demo kai` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo kai`.

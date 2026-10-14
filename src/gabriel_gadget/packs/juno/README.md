@@ -1,5 +1,9 @@
 # Juno on a gadget
 
+![Juno](portrait.jpg)
+
+Official portrait: [Juno](https://gabrieloperator.com/persona/juno).
+
 Personal introductions.
 
 Run `gabriel-gadget demo juno` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo juno`.

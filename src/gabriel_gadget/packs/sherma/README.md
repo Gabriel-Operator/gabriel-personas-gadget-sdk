@@ -1,5 +1,9 @@
 # Sherma on a gadget
 
+![Sherma](portrait.jpg)
+
+Official portrait: [Sherma](https://gabrieloperator.com/persona/sherma).
+
 Official and operational forms.
 
 Run `gabriel-gadget demo sherma` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo sherma`.

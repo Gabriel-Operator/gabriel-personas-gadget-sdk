@@ -1,5 +1,9 @@
 # Chakri on a gadget
 
+![Chakri](portrait.jpg)
+
+Official portrait: [Chakri](https://gabrieloperator.com/persona/chakri).
+
 Recycling quotes and collection preparation.
 
 Run `gabriel-gadget demo chakri` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo chakri`.

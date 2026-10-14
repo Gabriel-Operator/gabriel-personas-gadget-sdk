@@ -1,5 +1,9 @@
 # Nora on a gadget
 
+![Nora](portrait.jpg)
+
+Official portrait: [Nora](https://gabrieloperator.com/persona/nora).
+
 Banking operations preparation.
 
 Run `gabriel-gadget demo nora` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo nora`.

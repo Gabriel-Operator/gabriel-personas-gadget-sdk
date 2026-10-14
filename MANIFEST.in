@@ -1,7 +1,7 @@
 include README.md LICENSE NOTICE SECURITY.md CONTRIBUTING.md AGENTS.md SKILL.md
 include backends.example.json
 recursive-include docs *.md *.jpg
-recursive-include examples *.md *.json *.svg
+recursive-include examples *.md *.json *.svg *.jpg
 recursive-include linux *.md *.example
 recursive-include simulator *.md
 recursive-include scripts *.py

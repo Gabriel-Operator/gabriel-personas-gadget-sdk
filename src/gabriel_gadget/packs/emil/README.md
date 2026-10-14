@@ -1,5 +1,9 @@
 # Emil on a gadget
 
+![Emil](portrait.jpg)
+
+Official portrait: [Emil](https://gabrieloperator.com/persona/emil).
+
 Customs and carrier portal preparation.
 
 Run `gabriel-gadget demo emil` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo emil`.

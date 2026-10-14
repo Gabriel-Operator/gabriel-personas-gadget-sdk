@@ -1,5 +1,9 @@
 # Archer on a gadget
 
+![Archer](portrait.jpg)
+
+Official portrait: [Archer](https://gabrieloperator.com/persona/archer).
+
 Restaurant campaign preparation.
 
 Run `gabriel-gadget demo archer` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo archer`.

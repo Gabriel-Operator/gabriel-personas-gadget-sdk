@@ -1,5 +1,9 @@
 # Paya on a gadget
 
+![Paya](portrait.jpg)
+
+Official portrait: [Paya](https://gabrieloperator.com/persona/paya).
+
 Time-sensitive online buying windows.
 
 Run `gabriel-gadget demo paya` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo paya`.

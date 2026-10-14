@@ -1,5 +1,9 @@
 # Nest on a gadget
 
+![Nest](portrait.jpg)
+
+Official portrait: [Nest](https://gabrieloperator.com/persona/nest).
+
 Private buyer and seller introductions.
 
 Run `gabriel-gadget demo nest` after installing the SDK, or use the checkout command `PYTHONPATH=src python3 -m gabriel_gadget demo nest`.

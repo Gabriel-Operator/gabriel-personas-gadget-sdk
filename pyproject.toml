@@ -20,4 +20,4 @@ gabriel-gadget = "gabriel_gadget.cli:main"
 where = ["src"]
 
 [tool.setuptools.package-data]
-gabriel_gadget = ["packs/**/*.json", "packs/**/*.svg", "packs/**/*.md", "web/*"]
+gabriel_gadget = ["packs/**/*.json", "packs/**/*.svg", "packs/**/*.md", "packs/**/*.jpg", "web/*"]
