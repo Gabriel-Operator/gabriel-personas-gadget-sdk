@@ -8,13 +8,15 @@ permissions:
 
 jobs:
   python:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         python: ['3.10', '3.13']
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: ${{ matrix.python }}
       - name: Domain and HTTP transport tests
@@ -33,13 +35,15 @@ jobs:
           gabriel-gadget demo chakri
 
   firmware:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     container: espressif/idf:v6.0.1
     strategy:
       matrix:
         profile: [basic, voice]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - name: Build ESP32-S3
         shell: bash
         working-directory: esp32
